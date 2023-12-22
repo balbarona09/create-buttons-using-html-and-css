@@ -2,15 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 body {
   padding: 10px;
 }
 .btn {
   display: inline-block;
+  font-size: 16px;
   padding: 12px 14px;
   border-radius: 5px;
-  border: none;
   cursor: pointer;
   text-decoration: none;
 }
@@ -24,10 +25,11 @@ body {
 }
 .btn-lg {
   font-size: 19px;
-  padding: 14px 16px;
+  padding: 16px 18px;
 }
 .btn-primary {
   background-color: hsl(210, 100%, 50%);
+  border: 1px solid hsl(210, 100%, 50%);
   color: white;
 }
 .btn-primary:hover {
@@ -35,6 +37,7 @@ body {
 }
 .btn-danger {
   background-color: hsl(0, 70%, 55%);
+  border: 1px solid hsl(0, 70%, 55%);
   color: white;
 }
 .btn-danger:hover {
@@ -42,6 +45,7 @@ body {
 }
 .btn-success {
   background-color: hsl(152, 68%, 31%);
+  border: 1px solid hsl(152, 68%, 31%);
   color: white;
 }
 .btn-success:hover {
